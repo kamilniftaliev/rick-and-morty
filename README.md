@@ -4,7 +4,7 @@
 
 ## Demo
 
-#### iOS and Android App Demo (Click for full video)
+#### iOS and Android App Demo ([Click for full video](https://drive.google.com/file/d/1X8BQmSzpd_qNyS9V1DmL0sIwJ4argmxK/view?usp=sharing))
 
 This demonstration showcases the application's high performance and responsiveness on both iOS and Android. The screen recordings were captured on physical devices (iPhone and Samsung) via the Expo Go app to provide a real-world performance benchmark.
 
@@ -12,7 +12,7 @@ Notice the fluid navigation from the character details page back to the list, wh
 
 [![iOS and Android App Demo screenshot](./assets/screens/ios-and-android-demo.jpg)](./assets/screens/ios-and-android-demo.mp4)
 
-#### Web App Demo (Click for full video)
+#### Web App Demo ([Click for full video](https://drive.google.com/file/d/1QXLGwZq5IdJlvkTFHsKiLhyhMsdOTMgw/view?usp=sharing))
 
 This demonstration highlights the application's data fetching and caching strategies. To better illustrate the loading process, the network speed has been intentionally throttled. This showcases key features such as partial loading from the cache, the use of placeholder skeletons, and the efficiency of a cache-first policy, which avoids redundant network requests for previously viewed data.
 
