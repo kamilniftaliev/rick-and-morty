@@ -1,0 +1,32 @@
+fragment CharacterFragment on Character {
+  id
+  name
+  image
+  species
+  status
+}
+
+query GetCharacters($page: Int, $filter: FilterCharacter) {
+  characters(page: $page, filter: $filter) {
+    info {
+      next
+    }
+    results {
+      ...CharacterFragment
+    }
+  }
+}
+
+query GetCharacter($id: ID!) {
+  character(id: $id) {
+    ...CharacterFragment
+    gender
+    origin {
+      name
+    }
+    location {
+      name
+      type
+    }
+  }
+}

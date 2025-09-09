@@ -1,0 +1,10 @@
+{
+  "extends": ["expo/tsconfig.base", "@react-native/typescript-config"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "paths": {
+      "@*": ["src/*"]
+    }
+  }
+}
